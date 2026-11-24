@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right,#7d4698,  #ff93c5);
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+}
+.secao_login{
+    font-family: 'League Spartan',sans-serif;
+    font-size: 47px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    width: 20%;
+}
+.secao_login h3{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.secao_login form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
+.div_login{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+}
+form input{
+    height: 45px;
+    border-radius: 15px;
+    width: 400px;
+}
+form ::placeholder{
+    font-size: 20px;
+    text-indent: 15px;
+}
+.div_login .button{
+    border-radius: 20px;
+    width: 100px;
+    font-family: 'League Spartan',sans-serif;
+    font-size: 20px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    height: 45px;
+    transition: background-color 0.5s ease;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.div_login .button:hover{
+    background-color: #c8cdd3;
+}
+.div_logo{
+    font-family:'League Spartan',sans-serif ;
+    font-size: 40px;
+    color: white;
+    background-color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 210px;
+}
+.div_logo_quadrado{
+    background-color: #59316B;
+    width: 95%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.secao_logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
