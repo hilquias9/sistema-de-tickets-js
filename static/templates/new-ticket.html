@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/new-ticket.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-return">
+            <a href="/static/templates/home.html">VOLTAR</a>
+        </div>
+    </header>
+    <section class="frame">
+        <div class="new-ticket">
+            <h1>CRIAR</h1>
+            <form id="ticket-creation" action="https://6abae78c5b549d818d62b557.mockapi.io/api/v1/tickets" method="post">
+            <input name="title" id="title" type="text" maxlength="20" required>
+            <textarea name="description" id="description" maxlength="5" rows="20" class="criar-textarea" required></textarea>
+            <button type="submit">Enviar →</button>
+            </form>
+        </div>
+    </section>
+    <script src="/static/scripts/new-ticket.js"></script>
+</body>
+</html>

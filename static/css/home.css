@@ -11,6 +11,27 @@ header{
     height: 80px;
     background-color: #7d4698;
 }
-.last-ticket h1{
-    color: white;
+.frame{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    gap: 10px;
+}
+.model-ticket{
+    margin-top: 10px;
+}
+.div-model-ticket{
+
+    width: 25vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-model-ticket{
+    text-decoration: none;
+    color: inherit;
 }
