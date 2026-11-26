@@ -23,6 +23,25 @@ header{
 }
 .frame{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.ticket{
+    width: 10vw;
+    height: 100px;
+    background-color: #59316B;
+    border-radius: 10px;
+    color: white;
+}
+.title{
+    background-color: white;
+    text-align: center;
+    color: #7d4698;
+}
+.description{
+    background-color: #59316B;
+    margin-left: 5%;
 }
