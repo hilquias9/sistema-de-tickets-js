@@ -12,7 +12,7 @@ data.then(dataInfo=>{
         console.log(ticket)
         frame.innerHTML+=`
         <div class="ticket">
-            <h1 class=title> ${ticket.title}</h1>
+            <h1 class=title> ${ticket.title} <a href="/static/templates/edit-ticket.html?id=${ticket.id}">🔧</a></h1>
             <h1 class=description> ${ticket.description}</h1>
         </div>
         `
