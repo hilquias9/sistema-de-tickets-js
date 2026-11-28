@@ -74,8 +74,12 @@ header{
     height: 40px;
     transition: 1s;
     border: none;
-    margin-top: 1px;
+    margin-top: 5px;
 }
 .delete-button:hover{
     background-color: red;
+}
+label{
+    margin: 5px;
+    color: white;
 }

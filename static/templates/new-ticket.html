@@ -14,9 +14,11 @@
     </header>
     <section class="frame">
         <div class="new-ticket">
-            <h1>CRIAR</h1>
+            <h1>CRIAR TÍQUETE</h1>
             <form id="ticket-creation" action="https://6abae78c5b549d818d62b557.mockapi.io/api/v1/tickets" method="post">
+            <label for="title">Título</label>
             <input name="title" id="title" type="text" maxlength="20" required>
+            <label for="description">Descrição do ocorrido</label>
             <textarea name="description" id="description" maxlength="5" rows="20" class="criar-textarea" required></textarea>
             <button type="submit">Enviar →</button>
             </form>

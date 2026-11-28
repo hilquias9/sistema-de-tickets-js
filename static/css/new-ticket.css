@@ -54,8 +54,12 @@ header{
     height: 40px;
     transition: 1s;
     border: none;
-    margin-top: 1px;
+    margin-top: 5px;
 }
 .new-ticket button:hover{
     background-color: rgb(163, 255, 72);
+}
+label{
+    margin: 5px;
+    color: white;
 }
