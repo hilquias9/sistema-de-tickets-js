@@ -49,13 +49,33 @@ header{
 .new-ticket input{
     width: 400px;
 }
-.new-ticket button{
-    width: 25%;
+.form-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+.send-button{
+    width: 100px;
+    height: 40px;
+    transition: 1s;
+    border: none;
+    margin-top: 1px;
+    text-align: center;
+}
+.send-button:hover{
+    background-color: rgb(163, 255, 72);
+}
+.delete-button{
+    text-align: center;
+    width: 100px;
     height: 40px;
     transition: 1s;
     border: none;
     margin-top: 1px;
 }
-.new-ticket button:hover{
-    background-color: rgb(163, 255, 72);
+.delete-button:hover{
+    background-color: red;
 }

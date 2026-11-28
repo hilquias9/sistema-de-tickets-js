@@ -12,11 +12,18 @@ formTicket.addEventListener("submit",async function (event) {
             },
             body:JSON.stringify(data)
         })
+        if(response.status==201){
+            alert("Tíquete enviado com sucesso!")
+            window.location.href="/static/templates/my-tickets.html"
+        }
+        else{
+            alert("Ocorreu um erro ao enviar o tíquete!")
+            console.log(response.status)
+        }
     }
     const title=document.getElementById("title")
     const description=document.getElementById("description")
     sendTicket(title.value,description.value)
-    alert("Tíquete enviado com sucesso!")
     title.value=""
     description.value=""
 })
